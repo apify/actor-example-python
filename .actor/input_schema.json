@@ -1,0 +1,22 @@
+{
+  "title": "Add two integers",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "first_number": {
+      "title": "First integer",
+      "type": "integer",
+      "description": "The number you want to add to the second number.",
+      "editor": "number",
+      "prefill": 1
+    },
+    "second_number": {
+      "title": "Second integer",
+      "type": "integer",
+      "description": "The number you want to add to the first number.",
+      "editor": "number",
+      "prefill": 2
+    }
+  },
+  "required": ["first_number", "second_number"]
+}
